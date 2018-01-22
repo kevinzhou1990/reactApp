@@ -1,0 +1,142 @@
+{
+  "ret_code": 1,
+  "ret_data": {
+    "cats": [
+      {
+        "cat_id": 6,
+        "cat_text": "药品",
+        "cat_level": 1,
+        "sub_cats": []
+      }, {
+        "cat_id": 7,
+        "cat_text": "药品1",
+        "cat_level": 1,
+        "sub_cats": [
+          {
+            "cat_id": 6,
+            "cat_text": "药品",
+            "cat_level": 2
+          }
+        ]
+      }, {
+        "cat_id": 8,
+        "cat_text": "药品2",
+        "cat_level": 1,
+        "sub_cats": [
+          {
+            "cat_id": 6,
+            "cat_text": "药品",
+            "cat_level": 2
+          }
+        ]
+      }, {
+        "cat_id": 9,
+        "cat_text": "药品3",
+        "cat_level": 1,
+        "sub_cats": [
+          {
+            "cat_id": 6,
+            "cat_text": "药品",
+            "cat_level": 2
+          }
+        ]
+      }, {
+        "cat_id": 10,
+        "cat_text": "食品1",
+        "cat_level": 1,
+        "sub_cats": []
+      }, {
+        "cat_id": 11,
+        "cat_text": "食品1-1",
+        "cat_level": 1,
+        "sub_cats": [
+          {
+            "cat_id": 10,
+            "cat_text": "食品1",
+            "cat_level": 2
+          }
+        ]
+      }, {
+        "cat_id": 12,
+        "cat_text": "食品2-1",
+        "cat_level": 1,
+        "sub_cats": [
+          {
+            "cat_id": 10,
+            "cat_text": "食品1",
+            "cat_level": 2
+          }
+        ]
+      }, {
+        "cat_id": 13,
+        "cat_text": "食品3-1",
+        "cat_level": 1,
+        "sub_cats": [
+          {
+            "cat_id": 10,
+            "cat_text": "食品1",
+            "cat_level": 2
+          }
+        ]
+      }, {
+        "cat_id": 14,
+        "cat_text": "哦也",
+        "cat_level": 1,
+        "sub_cats": []
+      }
+    ],
+    "crowds": [
+      {
+        "crowd_text": "老年人",
+        "crowd_id": 1
+      }, {
+        "crowd_text": "高血压人群",
+        "crowd_id": 2
+      }, {
+        "crowd_text": "糖尿病人群",
+        "crowd_id": 3
+      }, {
+        "crowd_text": "孕产妇",
+        "crowd_id": 4
+      }, {
+        "crowd_text": "0-6岁儿童",
+        "crowd_id": 5
+      }, {
+        "crowd_text": "严重精神障碍人群",
+        "crowd_id": 6
+      }, {
+        "crowd_text": "肺结核患者",
+        "crowd_id": 7
+      }, {
+        "crowd_text": "冠心病患者",
+        "crowd_id": 8
+      }, {
+        "crowd_text": "肿瘤病患者",
+        "crowd_id": 9
+      }, {
+        "crowd_text": "脑卒中病患者",
+        "crowd_id": 10
+      }, {
+        "crowd_text": "全部人群",
+        "crowd_id": 11
+      }, {
+        "crowd_text": "正常人群",
+        "crowd_id": 12
+      }, {
+        "crowd_text": "其他人群",
+        "crowd_id": 100
+      }
+    ],
+    "tags": [
+      {
+        "tag_id": 15,
+        "tag_no": 10001,
+        "tag_text": "标签1"
+      }, {
+        "tag_id": 16,
+        "tag_no": 10001,
+        "tag_text": "标签2"
+      }
+    ]
+  }
+}

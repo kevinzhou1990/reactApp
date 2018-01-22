@@ -1,0 +1,37 @@
+.pagenation{
+    text-align: right;
+    margin-bottom:13px;
+}
+.pagenation a{
+    display:inline-block;
+    padding:4px 15px;
+    border:1px solid #333333;
+    color: #333333;
+    font-size:12px;
+    border-radius:3px;
+}
+.pagenation>span{
+    display:inline-block;
+    padding:4px 15px;
+    border:1px solid #999999;
+    border-radius:3px;
+    color: #999999;
+    font-size:12px;
+}
+.pagenation form{
+    float:right;
+}
+.pagenation form span{
+    display:inline-block;
+    margin-left:10px;
+}
+.pagenation form input[type="text"]{
+    width:30px;
+    text-align: center;
+    margin:0 10px;
+}
+.pagenation form input[type="submit"]{
+    width:60px;
+    height:30px;
+    padding:0;
+}

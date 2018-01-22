@@ -1,0 +1,39 @@
+<HTML>
+<header>
+<H1> Delphi 7 ActiveX Test Page </H1><p>
+You should see your Delphi 7 forms or controls embedded in the form below.
+<HR><center><P>
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+</header>
+<body>
+<OBJECT  
+   classid="clsid:1D1ED865-4E1A-413D-8AE2-D3197AD5B85B"
+   codebase="GRWEBPrint.inf#Version=1,0,0,3"
+width=0
+height=0
+align=0
+hspace=0
+          VIEWASTEXT 
+id="myact">
+</OBJECT>
+<input type="button" value="测试打印" onclick="doPrintTest()">
+<input type="button" value="测试OCX控件" onclick="doSavePrintSet()">
+</body>
+
+<script type="text/javascript">
+function doPrintTest(){
+var   v = document.getElementById("myact").CheckPriIDExists("0001"); 
+      v = document.getElementById("myact").CheckPrintDrv();   
+      v = document.getElementById("myact").WebPrintSetDialog();
+      v = document.getElementById("myact").SavePrintSetFile("1102","111111111111111111111111111111111112222222222222222222222233333333333333333333333333","");
+      v = document.getElementById("myact").webBillPrint('070101','都邦商旅无忧意外伤害险单凭证',11,'00009仅深圳市使用|00002BD001012001010123456789|000047B92C218632606B8660EA8EF592CB498|00010李小华|0001143282219760229265X|000242010-07-01 10:00:00|000252010-08-07 10:00:00|000267天|031￥10.00元|00006深圳罗湖汽车站|000232010-07-01 10:32:10|',1,'');
+
+} 
+</script>
+<script type="text/javascript">
+function doSavePrintSet(){
+var v = document.getElementById("myact").Test('测试OK');
+} 
+</script>
+  
+</HTML>

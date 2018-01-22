@@ -1,0 +1,66 @@
+{
+  "ret_code": 1,
+  "ret_data": {
+    "total": 12,
+    "tag_list":[{
+      "tag_id":1,
+      "tag_no":"1011",
+      "tag_text":"其他"
+    },
+    {
+      "tag_id":2,
+      "tag_no":"1012",
+      "tag_text":"好看的"
+    },
+    {
+      "tag_id":3,
+      "tag_no":"1013",
+      "tag_text":"可以吃的"
+    },
+    {
+      "tag_id":4,
+      "tag_no":"1014",
+      "tag_text":"不好看"
+    },
+    {
+      "tag_id":5,
+      "tag_no":"1015",
+      "tag_text":"合适"
+    },
+    {
+      "tag_id":6,
+      "tag_no":"1016",
+      "tag_text":"买了"
+    },
+    {
+      "tag_id":7,
+      "tag_no":"1017",
+      "tag_text":"媳妇"
+    },
+    {
+      "tag_id":8,
+      "tag_no":"1018",
+      "tag_text":"老婆"
+    },
+    {
+      "tag_id":9,
+      "tag_no":"1019",
+      "tag_text":"家里"
+    },
+    {
+      "tag_id":10,
+      "tag_no":"1020",
+      "tag_text":"商品"
+    },
+    {
+      "tag_id":11,
+      "tag_no":"1021",
+      "tag_text":"保健"
+    },
+    {
+      "tag_id":12,
+      "tag_no":"1022",
+      "tag_text":"吃的"
+    }]
+  }
+}

@@ -1,0 +1,9 @@
+#js_search > *{margin:0 10px;}
+#js_search > *:first-child{margin:0;}
+.modal-body{padding:15px;}
+.delTips{width:220px;padding-left:50%;margin-left:-110px;box-sizing: content-box;}
+.delTips p:first-child{font-size:16px;}
+.delTips p:last-child{font-size:12px;color:gray;}
+.modal-footer{padding:10px;}
+.modal-dialog{margin-top:200px;}
+a.dels{color:red;}

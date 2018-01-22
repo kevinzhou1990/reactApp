@@ -1,0 +1,21 @@
+.onSale{color:#3155f9;}
+.stopSale{color:#cf0d01;}
+.goodsDataList{min-width:1000px;}
+.goodsDataList select,.goodsDataList input[type=text]{margin-left:15px;max-width:150px !important;}
+.goodsDataList .form-inline label,.goodsDataList .form-inline button{margin-left:15px;}
+.goodsDataList .queryMeta{padding-left:20px;}
+.goodsDataList .queryMeta input[type=checkbox]{margin-right:5px;}
+.goodsDataList .queryMeta .pull-left{border:1px solid #ddd;padding:5px;margin:0 5px;cursor:pointer;}
+.goodsDataList .queryMeta div[id^="sub_cat_"]{display:none;}
+.goodsDataList .tagList,.goodsDataList .tagList .tagLabel{margin-top:10px;}
+.goodsDataList .rc-table,.goodsDataList .rc-table-content{position:static;}
+.goodsDataList .sub_cat{border-bottom:1px solid #e5e5e5;padding:5px 0 5px 10px;min-height:40px;}
+.goodsDataList .options{margin:5px 0;}
+.goodsDataList .options .btn{margin:0 5px;}
+.goodsDataList input[type=checkbox]{margin:0;}
+.goodsDataList .tagLabel .queryMeta div.pull-left{display: inline-block;padding: 3px 20px;border: 1px solid #ccc;margin-right: 10px;border-radius: 5px;cursor: pointer;margin-top: 5px;margin-bottom: 5px;}
+.goodsDataList .tagLabel .queryMeta div.pull-left:hover,.goodsDataList .tagLabel .queryMeta div.pull-left.active{border-color:#00a0e9;color:#00a0e9;}
+@media (min-width: 768px){
+    .goodsDataList select,.goodsDataList input[type=text]{margin-left:15px;max-width:150px !important;}
+    .goodsDataList .form-inline .form-control{width:150px;}
+}

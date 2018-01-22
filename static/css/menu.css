@@ -1,0 +1,116 @@
+.sidebar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.sidebar-menu a {
+    color: #333;
+    cursor: pointer;
+}
+
+.sidebar-menu > li {
+    position: relative;
+    margin: 0;
+    padding: 0
+}
+
+.sidebar-menu > li > a {
+    font-size: 14px;
+    padding: 12px 5px 12px 15px;
+    display: block
+}
+
+.sidebar-menu .treeview-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 5px
+}
+
+.sidebar-menu .treeview-menu .treeview-menu {
+    padding-left: 20px
+}
+
+.sidebar-menu .treeview-menu > li {
+    margin: 0
+}
+
+.sidebar-menu .treeview-menu > li > a {
+    padding: 5px 5px 5px 15px;
+    display: block;
+    font-size: 14px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.sidebar-menu {
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.sidebar-menu:hover {
+    overflow: visible
+}
+
+.sidebar-menu li > a {
+    position: relative
+}
+
+.sidebar-menu li > a > .pull-right {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -4px
+}
+
+.sidebar-menu .tree-txt {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.sidebar-menu > li {
+    -webkit-transition: border-left-color .3s ease;
+    -o-transition: border-left-color .3s ease;
+    transition: border-left-color .3s ease
+}
+
+.sidebar-menu > li > a {
+    border-left: 4px solid transparent;
+}
+
+.sidebar-menu > li > .treeview-menu {
+    background: #f4f4f5
+}
+
+.sidebar-menu a:hover,
+.sidebar-menu a:active {
+    text-decoration: none !important;
+}
+
+.sidebar-menu li.active > .treeview-menu {
+    display: block
+}
+
+.sidebar-menu > li.active {
+    border-left-color: #00a65a
+}
+
+.sidebar-menu > li:hover > a,
+.sidebar-menu > li.active > a {
+    background: #d8f3ff;
+    border-left-color: #00a0e9;
+}
+
+.treeview-menu > li.active > a,
+.treeview-menu > li > a:hover {
+    /*color: #fff;*/
+    font-weight: bold;
+}
+
+.sidebar-menu li.menu-open > a > .icon-arrow-r{
+    transform: rotate(90deg);
+    transition: transform .5s ease-in 0.1s;
+}

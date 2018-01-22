@@ -1,0 +1,40 @@
+{
+  "ret_code": 1,
+  "ret_data":
+  {
+    "reason": "头痛",
+    "opinion": "发烧引起",
+    "conDate": 4124214213,
+    "doctorSign": "lee",
+    "updateDate": null,
+    "residentNo": "42118200100100012",
+    "residentName": "居民2",
+    "imageUrlList": [
+      "abcxcvxd",
+      "abcxcvxd"
+    ],
+    "consulationHospitalList": [
+    {
+      "chId": 48,
+      "docType": 50,
+      "docId": 11,
+      "userId": 101,
+      "hospitalName": "123",
+      "doctorSign1": "赵医生",
+      "doctorSign2": "王医生",
+      "doctorSign3": "",
+      "conDate": 65561516
+    },
+    {
+      "chId": 49,
+      "docType": 50,
+      "docId": 11,
+      "userId": 101,
+      "hospitalName": "145",
+      "doctorSign1": "2143",
+      "doctorSign2": "1243",
+      "doctorSign3": "1243",
+      "conDate": 243
+    }]
+  }
+}

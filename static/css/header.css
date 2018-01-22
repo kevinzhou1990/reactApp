@@ -1,0 +1,21 @@
+.header{
+    background-color: #cccccc;
+}
+
+.hd-title{
+    float: left;
+}
+
+.hd-operate{
+    float: right;
+}
+
+.header .title{
+    margin: 0;
+    line-height: 100px;
+}
+
+.header .hd-operate{
+    line-height: 100px;
+    text-align: right
+}

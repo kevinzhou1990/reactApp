@@ -1,0 +1,52 @@
+.filter{
+    height:.82rem;
+    line-height:.82rem;
+    margin:0;
+    padding-left:1.05rem;
+}
+.filter a{
+    font-size:.24rem;
+    font-weight:bold;
+}
+.goodslist,#classify{
+    padding-left:1.05rem;
+}
+#classify .onecate li,#classify .sendcate li{
+    padding:.2rem .3rem;
+}
+#classify .onecate li.active{
+    background:#eaeaea;
+}
+#classify .sendcate li.active{
+    color:#376be9;
+}
+.goodslist li{
+    float:left;
+    width:3.5rem;
+    margin-right:.25rem;
+    margin-bottom:.45rem;
+}
+.goodslist .mainImg img{
+    width:100%;
+}
+.goodslist li p{
+    font-size:.24rem;
+    line-height:1.5;
+    margin:0;
+}
+.goodslist li p:last-child{
+    margin-top:.15rem;
+}
+.goodslist .mainImg{
+    margin-bottom:.15rem;
+}
+.goodslist li p a{
+    color:#376be9;
+    font-weight:bolder;
+}
+#goodslist li a{
+    display:block;
+}
+#goodslist li a .price{
+    color:#ff0505;
+}

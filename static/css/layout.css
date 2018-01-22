@@ -1,0 +1,38 @@
+html,body,header div{
+    background-color:#f0f5fb !important;
+}
+/*body{
+    padding:0 1.5rem;
+}*/
+header{
+    margin-top:.65rem;
+}
+table{
+    width:100%;
+    background-color:#fff;
+}
+.table th,.table td{
+    text-align:center;
+    background-color:#fff;
+}
+table th{
+    background-color:#f7f7f7;
+}
+table tr>td:first-child{
+    text-align:left;
+}
+textarea{
+    resize:none;
+}
+.table.table-bordered th{
+    border-bottom:none;
+}
+.wrap-content{
+    overflow-y:auto;
+}
+.box{
+    display:flex;
+}
+.flex{
+    flex:1;
+}

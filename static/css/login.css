@@ -1,0 +1,58 @@
+@import "reset.css";
+@import "../assets/bootstrap/dist/css/bootstrap.min.css";
+html,body{
+    width:100%;
+    height:100%;
+}
+.login{
+    background:#51a9fe;
+}
+.login input.mb70{
+    margin-bottom:40px;
+}
+.content{
+    position: absolute;
+    width:630px;
+    top: 50%;
+    left: 50%;
+    margin-left:-315px;
+    margin-top: -240px;
+    background-color: #fff;
+    border:1px solid #7eadd7;
+    border-radius:5px;
+}
+.login_wrap{
+    width:100%;
+    padding-top:85px;
+    padding-bottom:40px;
+}
+.login_wrap form *{
+    font-size:14px;
+}
+.login_wrap form table{
+    width: 100%;
+}
+.login_wrap form table td{
+    padding:0 36px;
+}
+.login_wrap form table td img{
+    width:120px;
+    margin-top:60px;
+    margin-bottom:50px;
+}
+.login_wrap form input[type=text],.login_wrap form input[type=password],.login_wrap form button{
+    margin-bottom:20px;
+    height:60px;
+}
+.login_wrap form input{
+    background:#f7f7f7;
+}
+.login_wrap .checkbox{
+    padding-left:20px;
+}
+.login_wrap .login_fail{
+    position: absolute;
+    bottom:17px;
+    width:100%;
+    color:red;
+}

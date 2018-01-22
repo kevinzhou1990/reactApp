@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>新康医疗后台管理系统</title>
+  <link rel="stylesheet" href="../static/css/style.css" />
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="hd-title">
+      <span class="logo"><img src="../static/sprite/new_logo.png" alt="logo"></span>
+      <span class="title">后台管理系统V1.0</span>
+    </div>
+    <div class="hd-operate">
+      <span class="icon icon-avatar"></span>
+      <span>小安南</span>
+      <span>|</span>
+      <span><a href="javascript:void(0);" id="js-update-pwd">修改密码</a></span>
+      <span>|</span>
+      <span><a href="javascript:void(0);" id="js-msgCenter"><i class="icon icon-msg"></i><span class="msgCount">99+</span></a>
+      </span>
+      <span>退出</span>
+    </div>
+  </div>
+  <div class="menu" id="js-menu">
+    <div class="wrap-menu">
+      <!--<ul id="tree" class="ztree"></ul>-->
+      <ul class="sidebar-menu">
+
+            <li class="treeview">
+                <a>
+                    <i class="icon icon-example"></i><span class="tree-txt">功能例子</span><i class="icon icon-arrow-r pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <!-- <li class="treeview">
+                        <a data-key="reactdemo" data-name="reactdemo" data-uri="index"><span class="tree-txt">reactdemo</span></a>
+                    </li> -->
+                    <li class="treeview">
+                        <a data-key="commodityStats" data-name="商品销售统计" data-uri="commodityStats/commodityStats"><span class="tree-txt">商品销售统计</span></a>
+                    </li>
+                    <li class="treeview">
+                        <a data-key="salesStats" data-name="销售统计" data-uri="salesStats/salesStats"><span class="tree-txt">销售统计-大健康部</span></a>
+                    </li>
+                    <!-- <li class="treeview">
+                        <a data-key="jgssalesStats" data-name="销售统计-健管师" data-uri="jgssalesStats/jgssalesStats"><span class="tree-txt">销售统计-健管师</span></a>
+                    </li> -->
+                    <li class="treeview">
+                        <a data-key="userStats" data-name="用户统计" data-uri="userStats/userStats"><span class="tree-txt">用户统计</span></a>
+                    </li>
+                    <li class="treeview">
+                        <a data-key="userOrders" data-name="辖区外地址管理" data-uri="jurisdictionOutsideAddrAdmin/addrAdmin"><span class="tree-txt">辖区外地址管理</span></a>
+                    </li>
+                   <!-- <li class="treeview">
+                       <a data-key="pageNation" data-name="pageNation" data-uri="showUpdateCommodityModalpageNation"><span class="tree-txt">pageNationdemo</span></a>
+                   </li>
+                    <li class="treeview">
+                        <a data-key="select" data-name="select" data-uri="showUpdateCommodityModalselect"><span class="tree-txt">selectDemo</span></a>
+                    </li>
+                    <li class="treeview">
+                        <a data-key="dialog" data-name="dialog" data-uri="showUpdateCommodityModaldialog"><span class="tree-txt">dialogDemo</span></a>
+                    </li> -->
+                    <li class="treeview">
+                        <a data-key="commodityManagement" data-name="站点商品管理" data-uri="prodManage/List"><span class="tree-txt">站点商品管理</span></a>
+                    </li>
+                    <li class="treeview">
+                        <a data-key="guestOrderList" data-name="订货意向管理" data-uri="guestorder/List"><span class="tree-txt">订货意向管理</span></a>
+                    </li>
+                    <li class="treeview">
+                        <a data-key="shopOrderList" data-name="订单管理" data-uri="shopOrder/List"><span class="tree-txt">订单管理</span></a>
+                    </li>
+					<li class="treeview">
+                        <a data-key="goodsTag" data-name="商品标签管理" data-uri="goodsTag/goodsTag"><span class="tree-txt">商品标签管理</span></a>
+                    </li>
+                    <li class="treeview">
+                        <a data-key="goodsData" data-name="商品资料管理" data-uri="goodsData/goodsData"><span class="tree-txt">商品资料管理</span></a>
+                    </li>
+                    <li class="treeview">
+                        <a data-key="priceManagent" data-name="商品价格管理" data-uri="priceManagent/priceManagent"><span class="tree-txt">商品价格管理</span></a>
+                    </li>
+                    <li class="treeview">
+                        <a data-key="applyMgr" data-name="调价申请" data-uri="priceManagent/applyMgr"><span class="tree-txt">调价申请</span></a>
+                    </li>
+                    <li class="treeview">
+                        <a data-key="priceCheck" data-name="调价审核" data-uri="priceManagent/priceCheck"><span class="tree-txt">调价审核</span></a>
+                    </li>
+                    <li class="treeview">
+                        <a data-key="priceRecord" data-name="调价记录" data-uri="priceManagent/priceRecord"><span class="tree-txt">调价记录</span></a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+  </div>
+  <ul id="myTabs" class="nav nav-tabs my-nav-tabs" role="tablist">
+    <li class="tab-menu js-tab-menu hide" id="js-tab-menu">
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <span class="caret"></span>
+      </button>
+        <ul id="js-min-tab-menu" class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+          <!--<li><a>Action</a></li>-->
+          <!--<li><a>Another action</a></li>-->
+          <!--<li><a>Something else here</a></li>-->
+          <!--<li role="separator" class="divider"></li>-->
+          <!--<li><a>Separated link</a></li>-->
+        </ul>
+      </div>
+    </li>
+  </ul>
+  <div class="content">
+    <div class="bs-example bs-example-tabs content-inner" data-example-id="togglable-tabs">
+
+      <div id="myTabContent" class="tab-content">
+
+      </div>
+
+    </div>
+
+  </div>
+  <input type="hidden" id="__user__" value="7000000001">
+  <input type="hidden" id="__auth__" value="CTBti8mL0GaTurUzTO9g826mKg==">
+  <div class="modal  fade" id="myModal" data-backdrop="static" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog loading text-center  modal-sm" role="document">
+      <canvas id="canvas"></canvas>
+    </div>
+  </div>
+</body>
+<!-- <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script> -->
+<script type="text/javascript" src="../static/assets/require/require-2.1.5.js" data-ctx="" data-main="../static/js/main" id="js-main"></script>
+<script type="text/javascript" src="../app/dev/runtime.js"></script>
+<script type="text/javascript" src="../app/dev/vendor.js"></script>
+<script>
+</script>
+
+</html>

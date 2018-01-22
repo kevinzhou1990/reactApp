@@ -1,0 +1,36 @@
+.pdtb {
+    padding: 20px 0;
+}
+.form-group {
+    margin-right: 20px;
+}
+select {
+    margin-left: 10px;
+    width: 150px !important;
+}
+.health-manager{
+    text-align: center;
+}
+.health-manager .form-group{
+    margin: 0;
+    display: inline-block;
+}
+.health-manager .form-group select{
+    width: 200px;
+    margin: 0;
+}
+.table-box {
+    position: relative;
+}
+.all-checkbox {
+    position: absolute;
+    left: 8px;
+    top: 0px;
+    z-index: 10;
+}
+.modal-from .form-control {
+    display: inline-block;
+}
+.modal-form .control-label {
+    vertical-align: middle;
+}

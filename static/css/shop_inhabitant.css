@@ -1,0 +1,69 @@
+body{
+    background-color:#f4f4f4;
+}
+#classify{
+    position: fixed;
+    width:100%;
+    background-color:#f4f4f4;
+}
+ul.filter{
+    height:.8rem;
+    border-bottom:.01rem solid #e5e5e5;
+    line-height:.8rem;
+    text-align:center;
+}
+ul.filter a{
+    color:#333333;
+    text-decoration:none;
+    font-size:.28rem;
+}
+ul.filter a:hover,ul.filter a.active{
+    color:#00a0e9;
+}
+.goodslist{
+    padding:1.7rem .2rem 0 .2rem;
+}
+.goodslist a{
+    display:block;
+    text-decoration: none;
+}
+.goodslist a p{
+    text-align: center;
+}
+.goodslist ul li{
+    width:2.28rem;
+    float:left;
+    margin-right:.1rem;
+    margin-bottom:.1rem;
+    padding-bottom:.15rem;
+    border:.01rem solid #e5e5e5;
+    border-radius:.05rem;
+    background:#fff;
+}
+.goodslist ul li:nth-child(3n){
+    margin-right:0;
+}
+.goodslist ul li .mainImg{
+    text-align:center;
+    margin:.4rem 0;
+}
+.goodslist ul li > p{
+    font-size:.28rem;
+    color:#333333;
+    text-align: center;
+}
+.goodslist ul li a > p{
+    color:#333;
+}
+.goodslist .specification{
+    text-align:center;
+    margin:.1rem 0;
+}
+.goodslist .specification span{
+    font-size:.24rem;
+    color:#333;
+}
+.goodslist .specification span:first-child{
+    margin-right:.3rem;
+    color:#ff0505;
+}

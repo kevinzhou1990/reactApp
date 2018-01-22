@@ -1,0 +1,34 @@
+{
+  "menuData": [
+    {"name": "角色管理","uri":"roleManager","key":"roleManager"},
+    {"name": "用户管理","uri":"userManager","key":"userManager"},
+    {
+      "name": "活动管理",
+      "children": [
+        {
+          "name": "下社区",
+          "children": [
+            {
+              "name": "下社区列表",
+              "uri": "xsq",
+              "key": "xsq"
+            },
+            {"name": "下社区详情"}
+          ]
+        },
+        {
+          "name": "体检",
+          "children": [
+            {
+              "name": "体检列表",
+              "uri": "tj",
+              "key": "tj"
+            },
+            {"name": "新增体检"},
+            {"name": "体检详情"}
+          ]
+        }
+      ]
+    }
+  ]
+}

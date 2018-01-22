@@ -1,0 +1,391 @@
+{
+  "ret_code": 1,
+  "ret_data": {
+    "total": 12,
+    "prod_list":[
+      {
+      "prod_id":1,
+      "prod_no":"10001",
+      "prod_name":"安贝优幼儿鱼肝油",
+      "prod_src":"华润三九（北京）药业有限公司",
+      "prod_spec":"6g*10袋",
+      "prod_assist_code":"dxaxx",
+      "prod_price":6.22,
+      "prod_original_price":10.0,
+      "prod_cat":{
+        "cat_id":"id_cad",
+        "cat_text":"保健品"
+      },
+      "prod_country_flag":1,
+      "prod_in_sale":1,
+      "prod_allow_sale":1,
+      "prod_display":1,
+      "prod_tags":[
+        {"tag_id": 12121, "tag_text": "婴幼儿"},
+        {"tag_id": 1111, "tag_text": "保健"}
+      ],
+      "prod_crowds": [
+        {
+          "crowd_id": 111,
+          "crowd_text": "幼儿"
+        },
+        {
+          "crowd_id": 112,
+          "crowd_text": "老年人"
+        }
+      ]
+    },
+    {
+      "prod_id":2,
+      "prod_no":"10001",
+      "prod_name":"安贝优幼儿鱼肝油",
+      "prod_src":"华润三九（北京）药业有限公司",
+      "prod_spec":"6g*10袋",
+      "prod_assist_code":"dxaxx",
+      "prod_price":6.22,
+      "prod_original_price":10.0,
+      "prod_cat":{
+        "cat_id":"id_cad",
+        "cat_text":"保健品"
+      },
+      "prod_country_flag":1,
+      "prod_in_sale":1,
+      "prod_allow_sale":1,
+      "prod_display":1,
+      "prod_tags":[
+        {"tag_id": 12121, "tag_text": "婴幼儿"},
+        {"tag_id": 1111, "tag_text": "保健"}
+      ],
+      "prod_crowds": [
+        {
+          "crowd_id": 111,
+          "crowd_text": "幼儿"
+        },
+        {
+          "crowd_id": 112,
+          "crowd_text": "老年人"
+        }
+      ]
+    },
+    {
+      "prod_id":3,
+      "prod_no":"10001",
+      "prod_name":"安贝优幼儿鱼肝油",
+      "prod_src":"华润三九（北京）药业有限公司",
+      "prod_spec":"6g*10袋",
+      "prod_assist_code":"dxaxx",
+      "prod_price":6.22,
+      "prod_original_price":10.0,
+      "prod_cat":{
+        "cat_id":"id_cad",
+        "cat_text":"保健品"
+      },
+      "prod_country_flag":1,
+      "prod_in_sale":0,
+      "prod_allow_sale":0,
+      "prod_display":1,
+      "prod_tags":[
+        {"tag_id": 12121, "tag_text": "婴幼儿"},
+        {"tag_id": 1111, "tag_text": "保健"}
+      ],
+      "prod_crowds": [
+        {
+          "crowd_id": 111,
+          "crowd_text": "幼儿"
+        },
+        {
+          "crowd_id": 112,
+          "crowd_text": "老年人"
+        }
+      ]
+    },
+    {
+      "prod_id":4,
+      "prod_no":"10001",
+      "prod_name":"安贝优幼儿鱼肝油",
+      "prod_src":"华润三九（北京）药业有限公司",
+      "prod_spec":"6g*10袋",
+      "prod_assist_code":"dxaxx",
+      "prod_price":6.22,
+      "prod_original_price":10.0,
+      "prod_cat":{
+        "cat_id":"id_cad",
+        "cat_text":"保健品"
+      },
+      "prod_country_flag":1,
+      "prod_in_sale":0,
+      "prod_allow_sale":0,
+      "prod_display":1,
+      "prod_tags":[
+        {"tag_id": 12121, "tag_text": "婴幼儿"},
+        {"tag_id": 1111, "tag_text": "保健"}
+      ],
+      "prod_crowds": [
+        {
+          "crowd_id": 111,
+          "crowd_text": "幼儿"
+        },
+        {
+          "crowd_id": 112,
+          "crowd_text": "老年人"
+        }
+      ]
+    },
+    {
+      "prod_id":5,
+      "prod_no":"10001",
+      "prod_name":"安贝优幼儿鱼肝油",
+      "prod_src":"华润三九（北京）药业有限公司",
+      "prod_spec":"6g*10袋",
+      "prod_assist_code":"dxaxx",
+      "prod_price":6.22,
+      "prod_original_price":10.0,
+      "prod_cat":{
+        "cat_id":"id_cad",
+        "cat_text":"保健品"
+      },
+      "prod_country_flag":1,
+      "prod_in_sale":1,
+      "prod_allow_sale":1,
+      "prod_display":1,
+      "prod_tags":[
+        {"tag_id": 12121, "tag_text": "婴幼儿"},
+        {"tag_id": 1111, "tag_text": "保健"}
+      ],
+      "prod_crowds": [
+        {
+          "crowd_id": 111,
+          "crowd_text": "幼儿"
+        },
+        {
+          "crowd_id": 112,
+          "crowd_text": "老年人"
+        }
+      ]
+    },
+    {
+      "prod_id":6,
+      "prod_no":"10001",
+      "prod_name":"安贝优幼儿鱼肝油",
+      "prod_src":"华润三九（北京）药业有限公司",
+      "prod_spec":"6g*10袋",
+      "prod_assist_code":"dxaxx",
+      "prod_price":6.22,
+      "prod_original_price":10.0,
+      "prod_cat":{
+        "cat_id":"id_cad",
+        "cat_text":"保健品"
+      },
+      "prod_country_flag":1,
+      "prod_in_sale":0,
+      "prod_allow_sale":0,
+      "prod_display":1,
+      "prod_tags":[
+        {"tag_id": 12121, "tag_text": "婴幼儿"},
+        {"tag_id": 1111, "tag_text": "保健"}
+      ],
+      "prod_crowds": [
+        {
+          "crowd_id": 111,
+          "crowd_text": "幼儿"
+        },
+        {
+          "crowd_id": 112,
+          "crowd_text": "老年人"
+        }
+      ]
+    },
+    {
+      "prod_id":7,
+      "prod_no":"10001",
+      "prod_name":"安贝优幼儿鱼肝油",
+      "prod_src":"华润三九（北京）药业有限公司",
+      "prod_spec":"6g*10袋",
+      "prod_assist_code":"dxaxx",
+      "prod_price":6.22,
+      "prod_original_price":10.0,
+      "prod_cat":{
+        "cat_id":"id_cad",
+        "cat_text":"保健品"
+      },
+      "prod_country_flag":1,
+      "prod_in_sale":1,
+      "prod_allow_sale":1,
+      "prod_display":1,
+      "prod_tags":[
+        {"tag_id": 12121, "tag_text": "婴幼儿"},
+        {"tag_id": 1111, "tag_text": "保健"}
+      ],
+      "prod_crowds": [
+        {
+          "crowd_id": 111,
+          "crowd_text": "幼儿"
+        },
+        {
+          "crowd_id": 112,
+          "crowd_text": "老年人"
+        }
+      ]
+    },
+    {
+      "prod_id":8,
+      "prod_no":"10001",
+      "prod_name":"安贝优幼儿鱼肝油",
+      "prod_src":"华润三九（北京）药业有限公司",
+      "prod_spec":"6g*10袋",
+      "prod_assist_code":"dxaxx",
+      "prod_price":6.22,
+      "prod_original_price":10.0,
+      "prod_cat":{
+        "cat_id":"id_cad",
+        "cat_text":"保健品"
+      },
+      "prod_country_flag":1,
+      "prod_in_sale":1,
+      "prod_allow_sale":1,
+      "prod_display":1,
+      "prod_tags":[
+        {"tag_id": 12121, "tag_text": "婴幼儿"},
+        {"tag_id": 1111, "tag_text": "保健"}
+      ],
+      "prod_crowds": [
+        {
+          "crowd_id": 111,
+          "crowd_text": "幼儿"
+        },
+        {
+          "crowd_id": 112,
+          "crowd_text": "老年人"
+        }
+      ]
+    },
+    {
+      "prod_id":9,
+      "prod_no":"10001",
+      "prod_name":"安贝优幼儿鱼肝油",
+      "prod_src":"华润三九（北京）药业有限公司",
+      "prod_spec":"6g*10袋",
+      "prod_assist_code":"dxaxx",
+      "prod_price":6.22,
+      "prod_original_price":10.0,
+      "prod_cat":{
+        "cat_id":"id_cad",
+        "cat_text":"保健品"
+      },
+      "prod_country_flag":1,
+      "prod_in_sale":1,
+      "prod_allow_sale":1,
+      "prod_display":1,
+      "prod_tags":[
+        {"tag_id": 12121, "tag_text": "婴幼儿"},
+        {"tag_id": 1111, "tag_text": "保健"}
+      ],
+      "prod_crowds": [
+        {
+          "crowd_id": 111,
+          "crowd_text": "幼儿"
+        },
+        {
+          "crowd_id": 112,
+          "crowd_text": "老年人"
+        }
+      ]
+    },
+    {
+      "prod_id":10,
+      "prod_no":"10001",
+      "prod_name":"安贝优幼儿鱼肝油",
+      "prod_src":"华润三九（北京）药业有限公司",
+      "prod_spec":"6g*10袋",
+      "prod_assist_code":"dxaxx",
+      "prod_price":6.22,
+      "prod_original_price":10.0,
+      "prod_cat":{
+        "cat_id":"id_cad",
+        "cat_text":"保健品"
+      },
+      "prod_country_flag":1,
+      "prod_in_sale":1,
+      "prod_allow_sale":1,
+      "prod_display":1,
+      "prod_tags":[
+        {"tag_id": 12121, "tag_text": "婴幼儿"},
+        {"tag_id": 1111, "tag_text": "保健"}
+      ],
+      "prod_crowds": [
+        {
+          "crowd_id": 111,
+          "crowd_text": "幼儿"
+        },
+        {
+          "crowd_id": 112,
+          "crowd_text": "老年人"
+        }
+      ]
+    },
+    {
+      "prod_id":11,
+      "prod_no":"10001",
+      "prod_name":"安贝优幼儿鱼肝油",
+      "prod_src":"华润三九（北京）药业有限公司",
+      "prod_spec":"6g*10袋",
+      "prod_assist_code":"dxaxx",
+      "prod_price":6.22,
+      "prod_original_price":10.0,
+      "prod_cat":{
+        "cat_id":"id_cad",
+        "cat_text":"保健品"
+      },
+      "prod_country_flag":1,
+      "prod_in_sale":1,
+      "prod_allow_sale":1,
+      "prod_display":1,
+      "prod_tags":[
+        {"tag_id": 12121, "tag_text": "婴幼儿"},
+        {"tag_id": 1111, "tag_text": "保健"}
+      ],
+      "prod_crowds": [
+        {
+          "crowd_id": 111,
+          "crowd_text": "幼儿"
+        },
+        {
+          "crowd_id": 112,
+          "crowd_text": "老年人"
+        }
+      ]
+    },
+    {
+      "prod_id":12,
+      "prod_no":"10001",
+      "prod_name":"安贝优幼儿鱼肝油",
+      "prod_src":"华润三九（北京）药业有限公司",
+      "prod_spec":"6g*10袋",
+      "prod_assist_code":"dxaxx",
+      "prod_price":6.22,
+      "prod_original_price":10.0,
+      "prod_cat":{
+        "cat_id":"id_cad",
+        "cat_text":"保健品"
+      },
+      "prod_country_flag":1,
+      "prod_in_sale":1,
+      "prod_allow_sale":1,
+      "prod_display":1,
+      "prod_tags":[
+        {"tag_id": 12121, "tag_text": "婴幼儿"},
+        {"tag_id": 1111, "tag_text": "保健"}
+      ],
+      "prod_crowds": [
+        {
+          "crowd_id": 111,
+          "crowd_text": "幼儿"
+        },
+        {
+          "crowd_id": 112,
+          "crowd_text": "老年人"
+        }
+      ]
+    }]
+  }
+}

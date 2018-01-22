@@ -1,0 +1,65 @@
+{
+  "ret_code": 1,
+  "ret_data": {
+    "policy_no":"POLICY201712291503",
+    "policy_start":1514531057042,
+    "policy_end":1514538057042,
+    "policy_type":1,
+    "insured_name":"远光",
+    "insured_phone":"13523564565",
+    "insured_birth":638323200000,
+    "insured_sex":1,
+    "reim_date":1514536057042,
+    "total_ amount":22.22,
+    "total_reimable":333.33,
+    "pay_amount":10.00,
+    "reim_amount":12.22,
+    "reim_drug":6.11,
+    "reim_nondrug":6.11,
+    "reim_total_left":111.11,
+    "reim_drug_left":110.11,
+    "reim_nondrug_left":1,
+    "item_list":[
+      {
+        "item_no":"D201712291512",
+        "item_name":"测试商品名称",
+        "item_cat":1,
+        "item_src":"上海哈药集团",
+        "item_spec":"10ml/瓶",
+        "item_amount":5.00
+      },
+      {
+        "item_no":"D201712291513",
+        "item_name":"测试商品名称",
+        "item_cat":1,
+        "item_src":"上海哈药集团",
+        "item_spec":"10ml/瓶",
+        "item_amount":5.00
+      },
+      {
+        "item_no":"D201712291514",
+        "item_name":"测试商品名称",
+        "item_cat":1,
+        "item_src":"上海哈药集团",
+        "item_spec":"10ml/瓶",
+        "item_amount":5.00
+      },
+      {
+        "item_no":"D201712291515",
+        "item_name":"测试商品名称",
+        "item_cat":1,
+        "item_src":"上海哈药集团",
+        "item_spec":"10ml/瓶",
+        "item_amount":5.00
+      },
+      {
+        "item_no":"D201712291516",
+        "item_name":"测试商品名称",
+        "item_cat":1,
+        "item_src":"上海哈药集团",
+        "item_spec":"10ml/瓶",
+        "item_amount":5.00
+      }
+    ]
+  }
+}

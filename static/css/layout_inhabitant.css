@@ -1,0 +1,15 @@
+.box{
+    display:flex;
+}
+.box .flex{
+    flex:1;
+}
+.clear::before,.clear::after{
+    display:block;
+    content:' ';
+    clear:both;
+    visibility: hidden;
+}
+.hide{
+    display:none;
+}

@@ -1,0 +1,23 @@
+{
+  "ret_code": 1,
+  "ret_data":
+  {
+    "arId": 11,
+    "actId": 0,
+    "userId": 7000003030,
+    "subjectiveData": "e,d.,wd,jo.j.odw",
+    "objectiveData": "ji.s,.nsixs.jkxs",
+    "assessment": "ih.s,.jiw,.ijdw",
+    "disposalPlan": ".wo",
+    "acceptanceDate": 1502121600000,
+    "doctorSign": "",
+    "impactDataUrl": "",
+    "createBy": 7000002222,
+    "createDate": 1502183400140,
+    "updateBy": "",
+    "updateDate": 1502183400140,
+    "residentNo": "44030600300100711",
+    "residentName": "毛洲",
+    "imageUrlList": ["group1/M00/00/1D/wKgB-lmJgDGAWFQ5AAFm05mdq-43991399", "group1/M00/00/1D/wKgB-lmJgDCAPSf0AAHUnvaPnrQ1292549", "group1/M00/00/1D/wKgB-lmJgDGAeOY-AAK5dTRJw_I6083491"]
+  }
+}

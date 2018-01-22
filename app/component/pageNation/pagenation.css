@@ -1,0 +1,40 @@
+.pd20{
+    padding:20px 0;
+}
+.pageNation{
+    margin:0;padding:0;
+    font-size:12px;
+    float:right;
+}
+.pageNation input[type=text].pageInput{
+    width:40px !important;
+    padding: 4px;
+    text-align: center;
+    margin:0;
+}
+.pageNation a,.pageNation input{
+    display:inline-block;
+    padding:4px 10px;
+    text-align:center;
+    border:1px solid #333;
+    color:#333;
+    border-radius:3px;
+    margin-right:5px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.pageNation span{
+    display:inline-block;
+    padding:4px;
+}
+.pageNation a:last-child{
+    margin-right:0;
+}
+.pageNation a.active{
+    border:1px solid #999;
+    color:#999;
+    cursor:default;
+}
+.pageNation a.btn-main{
+    color:#fff;
+}

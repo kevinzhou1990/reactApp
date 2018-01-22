@@ -1,0 +1,676 @@
+.tb-title{
+    float: left;
+}
+
+.tb-operate{
+    float: right;
+}
+
+.tb-title-txt {
+    margin: 0;
+    line-height: 68px;
+}
+
+.tb-operate {
+    float: right;
+    line-height: 68px;
+}
+.roleManager .tb-wrap{
+    padding:0 20px;
+}
+#modal_roleManager .form-tb .form-group > .power{
+    padding:0;
+}
+#modal_roleManager legend{
+    margin:0;
+    font-size:14px;
+    border:none;
+}
+#modal_roleManager .power label{
+    font-weight:normal;
+    margin:0 10px;
+}
+#modal_roleManager .power input[type=checkbox]{
+    vertical-align:middle;
+    margin-top:-1px;
+    margin-right:5px;
+}
+#modal_roleManager .power fieldset{
+    padding:13px 10px;
+    border-bottom:1px solid #e5e5e5;
+}
+#modal_roleManager .power .title{
+    padding:20px 10px;
+    border-bottom:1px solid #e5e5e5;
+}
+#modal_roleManager .operation{
+    text-align:center;
+    margin:30px 0 10px 0;
+}
+.padding-align {
+  padding: 10px 0;
+}
+
+
+.hospital table tbody tr td:last-child a{margin:0 5px;}
+.p20,
+.xzqy .tb-wrap,
+.healthEducationEquipment .tb-wrap,
+.duties .tb-wrap,
+.professionalTitleManage .tb-wrap,
+.departmentManager .tb-wrap,
+.hospital .tb-wrap,
+.newhospital .tb-wrap,
+.serviceArea .tb-wrap,
+.household .tb-wrap,
+.newHousehold .tb-wrap,
+.communityUser .tb-wrap,
+.personnel .tb-wrap,
+.newPersonnel .tb-wrap,
+.expenditure .tb-wrap,
+.healthEducationField .tb-wrap,
+.comunityActivities .tb-wrap,
+.clinicList .tb-wrap,
+.clinicDetail .tb-wrap,
+.lectureList .tb-wrap,
+.classify .tb-wrap,.communityClinicList .tb-wrap{
+    padding:0 20px;
+}
+.xzqy .table-bordered>thead>tr>th,
+.duties .table-bordered>thead>tr>th,
+.professionalTitleManage .table-bordered>thead>tr>th,
+.departmentManager .table-bordered>thead>tr>th,
+.hospital .table-bordered>thead>tr>th,
+.serviceArea .table-bordered>thead>tr>th,
+.communityClinicList .table-bordered>thead>tr>th{
+    border-bottom:none;
+}
+#modal_duties .radiochose{
+    text-align: center;
+}
+#modal_duties .radiochose label{
+    padding:0;
+}
+.newhospital select.form-control,.newHousehold select.form-control{
+    width:140px;
+    display:inline;
+}
+.newhospital .table-row,.newhospital input[type=text],.newHousehold .table-row{
+    margin:5px 0;
+}
+.newhospital .table tr td,.newHousehold .table tr td{
+    vertical-align: middle;
+}
+.newhospital .table tr td:nth-child(odd),
+.newHousehold fieldset .table tr td:nth-child(odd){
+    text-align:right;
+}
+fieldset .inllness table{
+    border:1px solid #e5e5e5;
+}
+fieldset .inllness td{
+    text-align: center;
+}
+fieldset .inllness .form-control{
+    display:inline;
+}
+fieldset .inllness input[type=text]{
+    width:80px;
+    margin:0 10px;
+}
+.imglist span{
+    display:inline-block;
+    width:150px;
+    height:150px;
+}
+.imglist span img{
+    width:100%;
+    height:100%;
+}
+#modal_serviceArea .modal-body{
+    padding:10px;
+}
+#modal_serviceArea .filter{
+    height:34px;
+    line-height:34px;
+    margin-bottom:10px;
+}
+#modal_serviceArea .filter select{
+    width: 180px;
+    display:inline-block;
+}
+#modal_serviceArea select.multiple{
+    width:246px;
+    height:300px;
+}
+#modal_serviceArea .move-icon{
+    margin:135px 10px 0 10px;
+}
+#modal_serviceArea .move-icon button{
+    display:block;
+    margin:10px 0;
+}
+#modal_serviceArea .opt{
+    text-align:center;
+}
+/*鏂板闂ㄧ墝鍙�*/
+.newHousehold .modal-body,#modal_communityUser .modal-body,.modal-wrap .modal-body{
+    padding:20px 13px;
+}
+.newHousehold .modal-body ul{
+    padding:0;
+}
+.newHousehold .modal-body li{
+    list-style: none;
+    margin:5px 10px;
+}
+.newHousehold .modal-body input[type=text]{
+    width:90px;
+    margin-right:5px;
+    text-indent:5px;
+}
+.newHousehold .modal-body td[colspan='2']{
+    text-align: left;
+}
+.newHousehold .table .col-sm-5 .form-control{
+    width:100%;
+}
+.newHousehold .modal-content .btn.confirm{
+    width:160px;
+    height:50px;
+    line-height:36px;
+    font-size:16px;
+}
+#modal_communityUser .modal-dialog{
+    margin-top:50px;
+}
+.expenditure #modal_expenditure .modal-body{
+    padding-bottom:10px;
+}
+.expenditure #modal_expenditure textarea.form-control{
+    height:120px;
+}
+.clinicDetail .table-wrap{
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+}
+.table-ill .col-sm-10,.table-imgs .col-sm-10{
+    border:1px solid #e5e5e5;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+.table-ill .col-sm-10 span,.table-imgs .col-sm-10 img{
+    margin:0 10px;
+}
+.mr10{
+    margin-left:10px;
+}
+input[type=file]{
+    display:inline;
+}
+.newDep div.form-inline{
+    margin:8px 0;
+}
+.healthRecord{
+    padding-top:50px;
+}
+.healthRecord table{
+    width:100%;
+}
+.healthRecord table tr>td:first-child{
+    text-align:right;
+    border-right:4px solid #d7e1e3;
+    padding-right:25px;
+    position: relative;
+}
+.healthRecord table tr:first-child > td{
+    border:none;
+}
+.healthRecord h3.title{
+    font-size:16px;
+    width:300px;
+    height:50px;
+    line-height:50px;
+    color:#fff;
+    background:#1c97ff;
+    border-radius:5px;
+    text-align: center;
+    margin:0;
+}
+.healthRecord p{
+    margin:0;
+}
+.healthRecord td>div{
+    border:1px solid #e5e5e5;
+    border-radius:5px;
+    width:320px;
+    margin:10px 20px;
+    padding:10px;
+    position:relative;
+    display:inline-block;
+}
+.healthRecord table tr:last-child > td{
+    padding-bottom:50px;
+}
+.healthRecord table .docname{
+    padding:5px 20px;
+    padding-right:0;
+    padding-left:25px;
+    background:#79afff;
+    color:#fff;
+    border-radius:20px;
+    vertical-align: middle;
+    position: relative;
+    margin-top: 10px;
+}
+.healthRecord .docname>span{
+    display: inline-block;
+    width:10px;
+    height:10px;
+    border-radius:10px;
+    background:#fff;
+    position:absolute;
+    left:10px;
+    top:10px;
+}
+.healthRecord table .icon_right{
+    display: inline-block;
+    width: 6px;
+    height: 9px;
+    background: url(../sprite/right.png) no-repeat 0 0 transparent;
+    position: absolute;
+    left: -5px;
+    z-index: 9;
+    top: 44%;
+}
+.healthRecord .icon-point{
+    display: inline-block;
+    height:20px;
+    width:20px;
+    background:url("../sprite/bluePoint.png") no-repeat 0 0 transparent;
+    position: absolute;
+    right:-12px;
+}
+.tasklist .input-group{
+    padding:0;
+}
+.communityClinicList table>thead{
+    background: #f7f7f7;
+}
+.communityClinicList table td{
+    vertical-align: middle;
+    text-align: center;
+}
+.center{
+    text-align:center;
+}
+.center *{
+    text-align:center;
+}
+.inhoseActivity td{
+    vertical-align: middle !important;
+}
+.inhoseActivity th{
+    text-align:center;
+}
+table.inhoseActivity td.col-sm-1{
+    text-align:left;
+}
+table.add_data tr:first-child>td:first-child{
+    text-align:left;
+    border-right:none;
+}
+table.add_data tr:last-child>td:first-child{
+    border-right:none;
+}
+.communityTasklist #modal_communityTasklist .modal-body {padding:15px;}
+.communityTasklist #modal_communityTasklist .modal-body .left{text-align:left;}
+.communityTasklist #modal_communityTasklist .modal-body label{margin:15px;}
+.imglist >div{padding-right:14px;}
+.imglist >div img{width:100px;}
+#addCoverageRate .wrap-table tr > td:nth-child(1),#addLifeStyle .wrap-table tr > td:nth-child(1){width:300px;}
+#addLifeStyle .wrap-table tr > td:nth-child(1).left,#newLecture .wrap-table tr > td:nth-child(1).left,
+#modifyHealthActivities .wrap-table tr > td:nth-child(1).left
+{text-align:left;}
+.expenditure .input-group[class*=col-] {padding:0;}
+#modal_healthEducationField div.operation{padding-bottom:15px;}
+#modal_hos .modal-content{width:770px;}
+#modal_hos .modal-body{padding:15px;}
+#modal_hos .modal-body div.clearfix{padding-bottom:15px;}
+#modal_hos table th{border-bottom:none;}
+#modal_hos .modal-dialog .table td:nth-child(odd){text-align: center;}
+.xzqy .opt select{width:120px;}
+#clinicDetail .table-wrap{border:none;}
+#clinicDetail .tb-wrap{padding-bottom:15px;}
+#healthKnowlegeDetail .tb-wrap{padding:0;}
+#healthKnowlegeDetail .table-wrap{border:none;}
+#healthKnowlegeDetail .wrap{border:none;}
+#healthKnowlegeDetail .tb-head{border:1px solid #e5e5e5;border-bottom:none;}
+#operationalData .show-next,#operationData_city .show-next{text-align:right;padding-bottom:15px;}
+#newClassify div.form-inline,#classifyMess div.form-inline,#updateClassify div.form-inline{margin-bottom:15px;}
+#newClassify div.form-inline:last-child,#classifyMess div.form-inline:last-child,#updateClassify div.form-inline:last-child{margin-bottom:0;}
+#editDepartment .icon-up,#editDepartment .icon-down{display:none;}
+#newDepartment .icon-up,#newDepartment .icon-down{display:none;}
+.sort_wrap{margin:5px 0;}
+td.check,th.check{width:30px;text-align:center;}
+#modal_newHospital .modal-body{padding:15px;}
+#modal_newHospital .table{margin:0;}
+#modal_newHospital .table th{border-bottom:none;background:#f7f7f7;}
+.familyDoctorGroup ul{padding:0}
+.familyDoctorGroup .tb-content{padding:5px;}
+.familyDoctorGroup .doctorSetting{border:1px solid #e5e5e5;padding:20px;margin-bottom:5px;background:#fff;}
+.familyDoctorGroup .doctorSetting .selectGroup{margin-bottom:10px;}
+.familyDoctorGroup .doctorSetting .selectGroup select{margin-right:50px;}
+.familyDoctorGroup .doctorSetting .selectGroup span{margin-right:15px;}
+.familyDoctorGroup .doctorSetting > p{font-size:12px;color:#666666;margin:0;}
+.familyDoctorGroup .dry{border:1px solid #e5e5e5;}
+.familyDoctorGroup .dry .content{padding:20px;background:#fff;}
+.familyDoctorGroup .dry .assign{border:1px solid #e5e5e5;background:#f9f9f9;margin-bottom:10px;}
+.familyDoctorGroup .assign > ul{width:205px;margin-bottom:0;overflow:auto;height:350px;}
+.familyDoctorGroup .assign > .netHouse,.familyDoctorGroup .assign > .choused{width:306px;}
+.familyDoctorGroup .assign > .netHouse{width:660px;}
+.familyDoctorGroup .assign > ul,
+.familyDoctorGroup .assign > .netHouse,
+.familyDoctorGroup .assign .choused{margin-right:10px;background:#fff;}
+.familyDoctorGroup .assign .choused{height:238px;width:306px;word-break:break-all;}
+.familyDoctorGroup .assign > ul li{height:49px;line-height:49px;border-bottom:1px solid #e5e5e5;color:#666666;padding-left:30px;border-right:1px solid #e5e5e5;cursor:pointer;}
+.familyDoctorGroup .assign > ul li.active{background:#b8e9ff;color:#00a0e9;}
+.familyDoctorGroup .assign > ul li.active .icon-radio{background:url(../sprite/chosed.png) no-repeat 0 0 transparent;}
+.familyDoctorGroup .assign > ul li:last-child{border-bottom:none;}
+.familyDoctorGroup .assign > ul li .icon-radio{display:inline-block;width:16px;height:16px;background:url(../sprite/chose.png) no-repeat 0 0 transparent;margin-right:14px;}
+.familyDoctorGroup .netHouse,.familyDoctorGroup .choused {height:323px;margin:10px 0;border:1px solid #e5e5e5;}
+.familyDoctorGroup .choused .tb-content>p{border-bottom:1px dotted #e5e5e5;text-align: left;padding:10px 0 20px 0;}
+.familyDoctorGroup .choused .tb-content>p:last-child{margin:0 16px 45px 16px;}
+.familyDoctorGroup .netHouse .tab-head,.familyDoctorGroup .choused .tab-head{height:48px;line-height:48px;font-size:14px;border-bottom:1px solid #e5e5e5;padding-left:20px;}
+.familyDoctorGroup #netHouseList{overflow:auto;padding-top:10px;height:270px;}
+.familyDoctorGroup #netHouseList .tree-wrap>.tree-wrap{display:none;}
+.familyDoctorGroup #netHouseList .tree-wrap>.tree-wrap>p span{display:inline-block;min-width:60px;min-height:14px;cursor:pointer;vertical-align: middle;}
+.familyDoctorGroup .tree-wrap{padding-left:20px;}
+.familyDoctorGroup .tree-wrap li{width:60px;}
+.familyDoctorGroup .tree-wrap.district>p>span{cursor:pointer;}
+.familyDoctorGroup #chousedHouse{height:189px;overflow:auto;}
+.familyDoctorGroup input[type=checkbox]{vertical-align: middle;margin:0 4px 4px;}
+.icon-up,.icon-down,.icon-del,.icon-add{width:20px;}
+.icon-down{background-position-x:-50px;}
+.icon-up{background-position-x: -92px;}
+.form-control.error {
+	border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+label.error {
+	color: #a94442;
+}
+@media (min-width: 768px){
+    .modal-dialog{
+        width:750px;
+    }
+}
+
+@media (min-width: 768px){
+    .bg-modal .modal-dialog{
+        width:980px;
+    }
+}
+#resident .modal-dialog label{padding:0;}
+#newHousehold .modal-content a.del{margin-right:10px;}
+#newHousehold .modal-body>div{height:550px;overflow:auto;}
+#fdItem .modal-dialog {width:900px;}
+#fdItem .modal-body .table.table-bordered>tbody>tr>td>input{width:700px;}
+#fdItem .modal-body table td>table{width:100%;}
+#fdItem .modal-body table td>table td{padding:5px;}
+#fdItem .modal-body .table.table-bordered>tbody>tr>td{padding:10px 5px;}
+#fdItem .modal-body table td,#fdItem .modal-body .table.table-bordered>tbody>tr>td.table-padding-none{padding:0 5px;}
+#fdSp .modal-dialog form #sp-table tr td:first-child{width:700px;}
+body>div.modal>div.modal-dialog, .react-dialog{width:400px;}
+body>div.modal>div.modal-dialog label{font-weight:normal;padding-left:0;padding-right:0;}
+body>div.modal>div.modal-dialog label.error{text-align:left;}
+#modal_resident .modal-body{height:530px;overflow:auto;}
+.msgCenter ul{padding:0;}
+.msgCenter li{padding:10px 0 10px 50px;background:url(../sprite/proj.png) no-repeat 20px 22px transparent;border-bottom:1px solid #e5e5e5;}
+.msgCenter li:last-child{border:none;}
+.msgCenter li:hover,.msgCenter li.active{background-color:#f9f9f9;}
+.msgCenter p{margin:0;padding:10px 0;}
+.msgCenter li p:first-child span{float:right;padding-right:30px;}
+.msgCenter li p:first-child{cursor:pointer;}
+.msgCenter li p:last-child{display:none;}
+.modalbody-container{
+  width: 100%!important;
+}
+
+
+.table-align tr > td:nth-child(2n),
+.gird-align.row > div:nth-child(2n)
+{
+  text-align: left;
+}
+.gird-align.row > div:nth-child(2n+1),
+.table-align tr > td:nth-child(2n+1){
+  text-align: right;
+}
+
+.gird-align.row > div:last-child,
+.table-align tr > td:last-child{
+  text-align: left;
+}
+
+.text-center.row > div{
+  text-align: center;
+}
+
+.data-display{
+  border-color: #e5e5e5;
+  border-style: solid;
+  border-width:  0 0 1px 1px;
+  margin: 20px;
+  background-color: #f7f7f7;
+}
+
+.data-display .row{
+  margin: auto;
+}
+
+.data-display .row > div{
+  height: 45px;
+  line-height: 45px;
+  border-color: #e5e5e5;
+  border-style: solid;
+  border-width: 1px 1px 0 0;
+}
+
+.data-display .row > div:nth-child(2n){
+  background-color: #fff;
+}
+.auto-height{
+  height: auto!important;
+  line-height: 1.42857143!important;
+}
+.border-bottom{
+  border-bottom: 1px solid #ccc;
+}
+.price_color{
+  color: red;
+  font-weight: bold;
+}
+.form-control.input-value{
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+.condition .form-group {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+
+.condition .control-label{
+  width: 100px;
+}
+
+.condition .checkbox-inline {
+  width: 130px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.condition .checkbox-inline+.checkbox-inline, .condition .radio-inline+.radio-inline {
+  margin-left: 0;
+}
+
+.condition .mul-check {
+  padding-top: 5px;
+}
+
+.modal-dialog .condition input[type=checkbox], .modal-dialog .condition input[type=radio] {
+  margin-top: 4px;
+}
+
+.condition label{
+  /*width: 60px;*/
+}
+
+.condition .prod-category{
+  display: inline-block;
+  padding: 3px 20px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.condition .prod-category:hover,
+.condition .prod-category.active{
+  color: #00a0e9;
+  border-color: #00a0e9;
+}
+
+.prodManage-info-img{
+  padding: 10px;
+}
+
+.prodManage-info-img > img{
+  width: 250px;
+  margin-right: 10px;
+}
+
+.flex-auto {
+  padding: 20px;
+  font-size: 14px;
+}
+
+.flex-auto .row{
+  margin: auto;
+}
+
+.flex-auto .row > div{
+  padding:10px
+  /* border-color: #e5e5e5; */
+  /* border-style: solid; */
+  /* border-width: 1px 1px 0 0; */
+}
+
+.flex-auto-item .control-label{
+  width: 115px;
+  text-align: right;
+}
+
+.flex-auto .prod-item{
+  background-color: #ebf8fe;
+  padding: 10px 0;
+  border-color: #b0e4fa;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+}
+
+.flex-auto .prod-item-cnt .prod-item:last-child{
+  border-width: 1px;
+}
+
+.flex-auto .prod-item > div{
+  height: 80px;
+  line-height: 80px;
+  padding: 0;
+}
+
+.flex-auto .prod-baseInfo{
+  padding: 20px 0;
+}
+
+.flex-auto .prod-payType,.claimsRecord {
+  padding: 20px;
+}
+
+.claimsRecord .girdlist{
+    margin-bottom:20px;
+}
+.claimsRecord .fileOpt .btn{
+    margin-right:10px;
+}
+
+.claimsRecord .fileOpt .btn:first-child{
+    margin:0;
+}
+.claimsRecord .girdlist .rc-table-body{
+    margin-bottom:0;
+}
+.claimsRecord .expednMsg{
+    border:1px solid #ddd;
+    border-top:none;
+}
+.claimsRecord .expednMsg span{
+    display:inline-block;
+    height:38px;
+    line-height: 38px;
+    padding:0 15px;
+}
+.claimsRecord .detailmsg{
+    background:#f7f7f7;
+    height:38px;
+    line-height: 38px;
+    padding:0 8px;
+    border:1px solid #ddd;
+    border-bottom:none;
+}
+
+
+.onSale{color:#3155f9;}
+.stopSale{color:#cf0d01;}
+
+.claimsRuls .form-control-static{
+    display:inline-block;
+}
+.claimsRuls input.form-control{
+    display:inline-block;
+    width:200px;
+    margin-right:10px;
+}
+.claimsRuls button.btn-main,.claimsRuls span.form-control-static{
+    margin-right:15px;
+}
+.claimsRuls .form-horizontal{border:1px solid #e5e5e5}
+.claimsRuls .form-horizontal >.form-group{border-bottom:1px solid #e5e5e5;margin:0;background:#f7f7f7;margin:0;}
+.claimsRuls .form-group .col-sm-2,
+.claimsRuls .form-group .col-sm-10,
+.claimsRuls .form-group .col-sm-4{padding:10px;}
+.claimsRuls .form-group .col-sm-10,
+.claimsRuls .form-group .col-sm-4{border-left:1px solid #e5e5e5;padding-left:10px;background:#fff;min-height:54px;}
+.claimsRuls .form-group .col-sm-4{border-right:1px solid #e5e5e5;}
+.claimsRuls .form-group:last-child{border:none;}
+.claimsRuls .form-group .col-sm-4:last-child{border-right:none;}
+.claimsRuls .form-group label.col-sm-2{height:54px;line-height:54px;padding:0 10px;}
+
+.claimCalculation,#itemContent .modal-body .center{
+    padding:20px;
+}
+.claimCalculation .showRes{
+    margin-top:40px;
+}
+#itemContent input[type=radio]{
+    margin-top:4px;
+}
